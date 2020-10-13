@@ -19,7 +19,7 @@ class Help(commands.Cog):
             h.add_field(name='__ABOUT__',value=f"\nPrefix : **{prefix}**\nDeveloped by : ``weeblet~kun#1193``")
             h.add_field(name='__MUSIC__',value='play, pause, resume, stop, skip, queue, join, shuffle, disconnect, remove')
             h.add_field(name='__MISC__',value='avatar, stats')
-            h.add_field(name='__MODERATION__',value='announce, dm, clear, ban, unban, kickout')
+            h.add_field(name='__MODERATION__',value='announce, dm, clear, ban, unban, kick')
             h.add_field(name='__DEVELOPER LINKS__',value=links_str)
             await ctx.send(embed=h)
         except Exception as e:

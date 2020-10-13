@@ -3,3 +3,4 @@ disputils
 python-decouple
 youtube_dl
 pynacl
+flask
