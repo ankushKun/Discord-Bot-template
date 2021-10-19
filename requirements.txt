@@ -1,4 +1,4 @@
-discord.py
+py-cord
 disputils
 python-decouple
 youtube_dl
